@@ -2,4 +2,4 @@
 
 ## lock here
 
-[My first HTML&CSS] (https://github.com/ZiyaKarimov/resume/)
+[My first HTML&CSS] (https://ziyakarimov.github.io/resume/)
