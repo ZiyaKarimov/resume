@@ -37,6 +37,32 @@ a:visited {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin: 30px;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #a4b6da;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
 .card {
     border-radius: 20px;
     padding: 15px 20px;
@@ -59,30 +85,6 @@ a:visited {
     background: #e5ffe7;
 }
 
-.info {
-    margin-bottom: 20px;
-    display: flex;
-}
-
-.info-text {
-    margin: 30px;
-}
-.info-text p {
-    font-style: italic;
-    font-weight: bold;
-    color: #a4b6da;
-    margin: 0;
-}
-
-.info-text h4 {
-    margin-bottom: 10px;
-}
-
-.src {
-    border-radius: 15px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-}
-
 .btn {
     background: #0f141e;
     padding: 15px 20px;
@@ -90,11 +92,11 @@ a:visited {
     font-family: inherit;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .btn:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .list {
@@ -172,3 +174,9 @@ a:visited {
     outline: none;
     font-family: inherit;
  }
+
+ 
+.src {
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
